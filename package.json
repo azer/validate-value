@@ -1,0 +1,24 @@
+{
+  "name": "validate-value",
+  "version": "0.0.0",
+  "description": "Validate a value with specified options",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "validate"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/validate-value.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "devDependencies": {
+    "prova": "^2.1.2"
+  },
+  "dependencies": {
+    "new-error": "0.0.0"
+  }
+}
