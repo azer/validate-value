@@ -64,7 +64,9 @@ Fails if the input is not a valid e-mail:
 Fails if the input is not longer/shorter than expected:
 
 ```js
-{ is: String, len: [3, 24] }
+{ is: String, len: [3, 24] } // between 3 & 24
+{ is: String, len: [3] } // longer than 3
+{ is: String, len: 3 } // has to be 3 characters long
 ```
 
 ### lower
