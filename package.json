@@ -19,6 +19,6 @@
     "prova": "^2.1.2"
   },
   "dependencies": {
-    "new-error": "0.0.0"
+    "new-error": "azer/new-error"
   }
 }
